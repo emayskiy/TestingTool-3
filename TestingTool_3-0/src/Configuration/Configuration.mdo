@@ -18,7 +18,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ivanov660</vendor>
-  <version>3.19.02.26</version>
+  <version>3.20.03.11</version>
   <updateCatalogAddress>https://github.com/ivanov660/TestingTool-3</updateCatalogAddress>
   <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
@@ -155,6 +155,7 @@
   <commonModules>CommonModule.ОсновноеРабочееМестоВызовСервера</commonModules>
   <commonModules>CommonModule.ОсновноеРабочееМестоСервер</commonModules>
   <commonModules>CommonModule.ПерепрефиксацияОбъектов</commonModules>
+  <commonModules>CommonModule.ПланировщикЗаданийВызовСервера</commonModules>
   <commonModules>CommonModule.ПланировщикЗаданийКлиентСервер</commonModules>
   <commonModules>CommonModule.ПланировщикЗаданийСервер</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
@@ -178,6 +179,7 @@
   <httpServices>HTTPService.Reports</httpServices>
   <scheduledJobs>ScheduledJob.ОбработкаЗаданий</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбработкаДействийЗаданий</scheduledJobs>
+  <scheduledJobs>ScheduledJob.УдалениеУстаревшихСобытий</scheduledJobs>
   <functionalOptions>FunctionalOption.ИспользоватьИгровоеМоделирование</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьНагрузочноеТестирование</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьОценкуЭффективности</functionalOptions>
@@ -209,6 +211,7 @@
   <constants>Constant.ИспользоватьТестирование</constants>
   <constants>Constant.ИспользоватьУправлениеРелизами</constants>
   <constants>Constant.УдалятьПереносыСтрокИзКомандыЗапуска</constants>
+  <constants>Constant.СрокХраненияСобытий</constants>
   <commonForms>CommonForm.ДополнительныеОтчетыИОбработки</commonForms>
   <commonForms>CommonForm.ОбщиеНастройиСистемы</commonForms>
   <commonForms>CommonForm.ОписаниеИзмененийСистемы</commonForms>
@@ -238,6 +241,7 @@
   <catalogs>Catalog.ПланыТестирования</catalogs>
   <catalogs>Catalog.Показатели</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ПользователиБаз1С</catalogs>
   <catalogs>Catalog.Проверки</catalogs>
   <catalogs>Catalog.Проекты</catalogs>
   <catalogs>Catalog.ПрофилиГруппДоступа</catalogs>
@@ -270,6 +274,7 @@
   <enums>Enum.ТипыШагов</enums>
   <enums>Enum.ТипЭлемента</enums>
   <enums>Enum.ТипыКлючейНастроек</enums>
+  <enums>Enum.ВариантыХраненияСобытий</enums>
   <reports>Report.ВыполнениеТестовПоПроверкам</reports>
   <reports>Report.НакопительныйГрафикВыполненияТестовПоПроверкам</reports>
   <reports>Report.ОтчетПоИерархииРезультатовТестированияПоПроверкам</reports>
@@ -297,12 +302,13 @@
   <informationRegisters>InformationRegister.ПланировщикРлизов</informationRegisters>
   <informationRegisters>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</informationRegisters>
   <informationRegisters>InformationRegister.ПользовательскиеПеременныеЗаданий</informationRegisters>
+  <informationRegisters>InformationRegister.ПриложенияПротоколовВыполненияТестов</informationRegisters>
   <informationRegisters>InformationRegister.ПротоколыВыполненияТестов</informationRegisters>
   <informationRegisters>InformationRegister.ПротоколыВыполненияТестовыхСлучаев</informationRegisters>
   <informationRegisters>InformationRegister.ПротоколыВыполненияШаговТестов</informationRegisters>
-  <informationRegisters>InformationRegister.ПриложенияПротоколовВыполненияТестов</informationRegisters>
   <informationRegisters>InformationRegister.СвзяиТестовОбъектовКонфигураций</informationRegisters>
   <informationRegisters>InformationRegister.СвязиИгроковБлоков</informationRegisters>
+  <informationRegisters>InformationRegister.СвязиПользователейБаз1С</informationRegisters>
   <informationRegisters>InformationRegister.СвязиСостоянийБлоков</informationRegisters>
   <informationRegisters>InformationRegister.СвязиТестовКонфигураций</informationRegisters>
   <informationRegisters>InformationRegister.СинонимыТестов</informationRegisters>
